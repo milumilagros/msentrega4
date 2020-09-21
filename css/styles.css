@@ -1,0 +1,183 @@
+/*variables*/
+/* color guardado #CF9087 
+
+@mixin titulos  {
+    font-family: 'Reenie Beanie', cursive;
+    color: $color-texto;
+}*/
+/* line 1, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_cards.scss */
+.tarjeta {
+  position: relative;
+  width: 80%;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px; }
+
+/* line 6, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_cards.scss */
+.tarjeta:hover .image {
+  opacity: 0.3;
+  color: #37402F; }
+
+/* line 10, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_cards.scss */
+.tarjeta:hover:hover .middle {
+  opacity: 1;
+  color: #FDE3E4; }
+
+/* line 14, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_cards.scss */
+.image {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+/* line 22, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_cards.scss */
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+  /* line 31, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_cards.scss */
+  .middle a {
+    text-decoration: none;
+    font-size: 10px; }
+
+/* line 1, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_menu.scss */
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.171);
+  background-color: white !important;
+  font-family: 'Amiri', serif; }
+  /* line 8, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_menu.scss */
+  .navbar img {
+    width: 30%; }
+  /* line 11, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_menu.scss */
+  .navbar a {
+    font-family: 'Amiri', serif;
+    font-size: 17px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #37402F !important; }
+
+/* line 2, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_titulos.scss */
+h1 {
+  font-size: -0.1em !important;
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center; }
+
+/* line 2, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_titulos.scss */
+h2 {
+  font-size: -0.2em !important;
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center; }
+
+/* line 2, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_titulos.scss */
+h3 {
+  font-size: -0.3em !important;
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center; }
+
+/* line 2, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_titulos.scss */
+h4 {
+  font-size: -0.4em !important;
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center; }
+
+/* line 2, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_titulos.scss */
+h5 {
+  font-size: -0.5em !important;
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center; }
+
+/* line 2, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/_titulos.scss */
+h6 {
+  font-size: -0.6em !important;
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center; }
+
+/* line 5, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 9, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+p {
+  font-family: 'Amiri', serif;
+  font-size: 17px; }
+
+/* line 13, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+.btn {
+  background-color: #D9ACA3;
+  border: none;
+  font-weight: 400; }
+  /* line 17, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+  .btn a {
+    text-decoration: none;
+    color: #ffffff !important; }
+  /* line 21, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+  .btn:hover {
+    background-color: #7D4C52; }
+
+/* line 25, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+#contacto {
+  width: 100%;
+  min-height: 400px;
+  background-color: #37402F; }
+  /* line 29, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+  #contacto h2, #contacto p {
+    color: white; }
+
+/* line 33, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+.img-nosotras {
+  height: auto; }
+
+/* line 36, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+.intro-seccion {
+  width: 50%;
+  position: relative; }
+
+/* line 40, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+#footer {
+  background-color: #37402F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
+  /* line 47, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+  #footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center; }
+  /* line 53, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+  #footer p {
+    color: white;
+    font-family: 'Amiri', serif;
+    font-style: italic; }
+  /* line 58, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+  #footer i {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0px 20px 30px 20px;
+    padding: 10px;
+    color: white !important;
+    font-size: 2rem;
+    transition: all linear 1s; }
+    /* line 67, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/ms/sass/styles.scss */
+    #footer i:hover {
+      color: #D9ACA3 !important;
+      padding-left: 20px;
+      padding-right: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

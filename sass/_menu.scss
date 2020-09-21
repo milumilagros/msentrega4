@@ -1,0 +1,19 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.171);
+    background-color: $color-nav!important;
+    font-family: 'Amiri', serif;
+    img {
+        width: 30%;
+    }
+    a {
+        @include parrafos;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color:$color-background-contacto!important;
+    }
+}
+

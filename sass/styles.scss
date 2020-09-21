@@ -1,0 +1,73 @@
+@import 'variables';
+@import 'cards';
+@import 'menu';
+@import 'titulos';
+*{
+    margin: 0;
+    padding: 0;
+}
+p {
+    @include parrafos;
+}
+
+.btn {
+    background-color: $color-button-card;
+    border: none;
+    font-weight: 400;
+    a {
+        text-decoration: none;
+        color: #ffffff!important;
+    }
+    &:hover{
+    background-color: $color-hover;
+    }
+}
+#contacto{
+    width: 100%;
+    min-height: 400px;
+    background-color: $color-background-contacto;
+    h2, p {
+        color: $color-nav;
+    }
+}
+.img-nosotras {
+    height: auto;
+}
+.intro-seccion{
+    width: 50%;
+    position: relative;
+}
+#footer {
+    background-color: $color-background-contacto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+        div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        }
+        p {
+            color: $color-nav;
+        font-family: 'Amiri', serif;
+        font-style: italic;
+        }
+        i {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            margin: 0px 20px 30px 20px ;
+            padding: 10px;
+            color: $color-nav!important;
+            font-size: 2rem;
+            transition: all linear 1s;
+                &:hover {
+                color:$color-button-card!important;
+                padding-left: 20px;
+                padding-right: 20px;
+                }
+        }
+}
